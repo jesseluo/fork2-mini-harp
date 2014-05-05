@@ -1,6 +1,6 @@
 {
   "name": "mini-harp",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Mini Harp Server",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/jesseluo/fork2-node-express",
   "dependencies": {
-    "connect": "^3.0.0-rc.1"
+    "connect": "^3.0.0-rc.1",
+    "minimist": "0.0.8"
   },
   "bin": {
     "mini-harp": "bin/mini-harp.js"
