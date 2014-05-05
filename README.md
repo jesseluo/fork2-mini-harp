@@ -1,4 +1,7 @@
-fork2-node-express
-==================
+#Readme  
+##Lessons  
+This project is for  
+[Lesson 1 - Mini Harp Static Server](http://d.fork2.com/t/lesson-1-mini-harp-static-server/182)  
 
-Mini Harp Static Server
+##Notes
+###Lesson 1
