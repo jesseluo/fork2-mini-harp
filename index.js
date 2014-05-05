@@ -5,6 +5,15 @@ function miniharp(port) {
 
   var app = connect();
 
+  app.use(function(request, response, next) {
+    if(request.url == "/current-time") {
+      response.end((new Date()).toISOString() + "\n");
+    }
+    else {
+      next();
+    }
+  })
+
   return app;
 }
 
