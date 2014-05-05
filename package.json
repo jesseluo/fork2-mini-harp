@@ -1,0 +1,25 @@
+{
+  "name": "mini-harp",
+  "version": "0.0.0",
+  "description": "Mini Harp Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jesseluo/fork2-node-express.git"
+  },
+  "author": "Jesse Luo",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/jesseluo/fork2-node-express/issues"
+  },
+  "homepage": "https://github.com/jesseluo/fork2-node-express",
+  "dependencies": {
+    "connect": "^3.0.0-rc.1"
+  },
+  "bin": {
+    "mini-harp": "bin/mini-harp.js"
+  }
+}
