@@ -7,8 +7,14 @@ function miniharp(root) {
   var app = connect();
   
   console.log("miniharp server running at: " + root);
-
-  // should serve /bar.html if bar.html exists
+  
+  app.use(function (req, res, next) {
+    if(req.url === "/"){
+      req.url = "/index.html";
+      next();
+    }
+  })
+  
   app.use(serveStatic(root));
   app.use(serveJade(root));
   app.use(serveLess(root));
